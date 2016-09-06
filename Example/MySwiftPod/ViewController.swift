@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import MySwiftPod
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let myPod = SdkInfo()
+        print("Hello from MySwiftPod v\(myPod.version())")
     }
 
     override func didReceiveMemoryWarning() {

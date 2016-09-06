@@ -1,0 +1,6 @@
+framework module MySwiftPod {
+  umbrella header "MySwiftPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

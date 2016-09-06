@@ -1,0 +1,16 @@
+PODS:
+  - MySwiftPod (0.1.0)
+
+DEPENDENCIES:
+  - MySwiftPod (from `../`)
+
+EXTERNAL SOURCES:
+  MySwiftPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MySwiftPod: 41abe7fca25d9b08a995f0daf18a323ed92e633b
+
+PODFILE CHECKSUM: 230e1d38a8c0d440e2a63cc5093e402924e01b32
+
+COCOAPODS: 1.0.1
